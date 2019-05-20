@@ -1,0 +1,16 @@
+LOSS - Learning Outcome Software Selector
+
+PostgreSQL database: postgres / 1 / 5432
+apache PEM_HTTPD port 8080
+
+
+Data model: 
+
+Learning outcomes 
+
+Application Names
+
+Application Modules
+
+Application Features
+
