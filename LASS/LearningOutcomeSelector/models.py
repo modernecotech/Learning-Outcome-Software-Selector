@@ -21,3 +21,13 @@ class ApplicationFeatures(models.Model):
     FeatureName_text = models.CharField(max_length=200)
     FeatureCategory=
 
+class Skills(models.Model):
+    skillName_text=models.Charfield(max_length=200)
+
+class Competences(models.Model):
+    CompetenceName_text = models.Charfield(max_length=200)
+
+class Knowledge(models.Model):
+    KnowledgeName_text=models.CharField(max_length=200)
+
+
