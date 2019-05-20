@@ -1,6 +1,8 @@
 LOSS - Learning Outcome Software Selector
 
 PostgreSQL database: postgres / 1 / 5432
+Database LASS
+
 apache PEM_HTTPD port 8080
 
 

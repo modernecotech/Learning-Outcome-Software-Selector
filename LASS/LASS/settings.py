@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'LASS.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'LASS',
+        'USER':'postgres',
+        'PASSWORD':'1',
+        'HOST':'127.0.0.1',
+        'PORT':'5432',
     }
 }
 
