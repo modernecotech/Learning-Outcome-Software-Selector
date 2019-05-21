@@ -5,6 +5,10 @@ Database LASS
 
 apache PEM_HTTPD port 8080
 
+django admin:
+admin
+test@test.com
+PXY5dyix
 
 Data model: 
 
