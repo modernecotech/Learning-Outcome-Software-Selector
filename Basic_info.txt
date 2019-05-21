@@ -11,12 +11,3 @@ test@test.com
 PXY5dyix
 
 Data model: 
-
-Learning outcomes 
-
-Application Names
-
-Application Modules
-
-Application Features
-
