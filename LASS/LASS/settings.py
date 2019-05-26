@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'graphene_django',
+
 #    'django.contrib.forms',
+
 ]
 
 MIDDLEWARE = [
@@ -52,6 +55,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'LASS.urls'
+
+GRAPHENE = {
+    'SCHEMA': 'django_root.schema.schema'
+}
 
 TEMPLATES = [
     {
