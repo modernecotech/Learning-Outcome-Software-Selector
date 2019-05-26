@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class LearningoutcomeselectorConfig(AppConfig):
+class LearningoutcomeSelectorConfig(AppConfig):
     name = 'LearningOutcomeSelector'

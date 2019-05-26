@@ -3,10 +3,6 @@ from .models import LearningOutcomes, LearningOutcomeSubject, Knowledge, Compete
 
 # Register your models here.
 
-#LearningOutcomes, LearningOutcomeSubject, 
-#Knowledge, Competences, Skills, ApplicationFeatures, Application, ExistingApplicationUsers,
-#ApplicationReviews
-
 admin.site.register(LearningOutcomes)
 admin.site.register(LearningOutcomeSubject)
 admin.site.register(Knowledge)

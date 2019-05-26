@@ -31,16 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'LearningOutcomeSelector.apps.LearningoutcomeselectorConfig',
+    'LearningOutcomeSelector.apps.LearningoutcomeSelectorConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.forms',
-
-    "rest_framework",
+#    'django.contrib.forms',
 ]
 
 MIDDLEWARE = [
