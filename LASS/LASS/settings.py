@@ -57,7 +57,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'LASS.urls'
 
 GRAPHENE = {
-    'SCHEMA': 'django_root.schema.schema'
+    'SCHEMA': 'LearningOutcomeSelector.schema.schema'
 }
 
 TEMPLATES = [

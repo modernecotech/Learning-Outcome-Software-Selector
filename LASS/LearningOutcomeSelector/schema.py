@@ -1,7 +1,7 @@
 import graphene
-import loss_schema
+import LearningOutcomeSelector.loss_schema
 
-class Query(loss_schema.Query, graphene.ObjectType):
+class Query(LearningOutcomeSelector.loss_schema.Query, graphene.ObjectType):
     pass
 
 schema = graphene.Schema(query=Query)
